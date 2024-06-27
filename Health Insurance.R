@@ -1,6 +1,5 @@
 getwd()
-setwd("C:/Users/adrit/OneDrive/Documents/NTU")
-setwd("C:/Users/adrit/OneDrive/Documents/NTU/R Lang")
+setwd("C:/Users/....")
 getwd()
 dataset <- read.csv('Health-Insurance-Dataset.csv', stringsAsFactors = TRUE)
 head(dataset)
