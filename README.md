@@ -13,9 +13,9 @@
 <br>
 
 **3. Data Visualization**
-* Creates histograms for numerical variables (age, BMI, charges).
+* Creates histograms for numerical variables (age, BMI, expenses).
 * Creates bar plots for categorical variables (children, sex, smoker, region).
-* Generates boxplots to visualize the distribution of age, BMI, and charges.
+* Generates boxplots to visualize the distribution of age, BMI, and expenses.
 <br>
 
 **4. Correlation and Association Tests**
@@ -25,19 +25,19 @@
 <br>
 
 **5. Linear Regression Modeling**
-* Builds a linear regression model to identify factors influencing insurance charges.
+* Builds a linear regression model to identify factors influencing insurance expenses.
 * Evaluates the model and plots diagnostic graphs.
 <br>
 
 **6. Group Comparisons**
-* Creates a new categorical variable CHARGE_split based on the median charges.
-* Conducts Wilcoxon tests to compare age, BMI, and children between high and low charge groups.
-* Performs chi-square tests to examine associations between CHARGE_split and categorical variables (sex, smoker, region).
+* Creates a new categorical variable EXPENSES_split based on the median expenses.
+* Conducts Wilcoxon tests to compare age, BMI, and children between high and low expense groups.
+* Performs chi-square tests to examine associations between EXPENSES_split and categorical variables (sex, smoker, region).
 * Visualizes these comparisons using boxplots and bar plots.
 <br>
 
 **7. Regional Analysis**
-* Conducts Kruskal-Wallis tests to examine regional differences in charges, age, and BMI.
+* Conducts Kruskal-Wallis tests to examine regional differences in expenses, age, and BMI.
 * Performs post-hoc pairwise comparisons if significant differences are found.
 
 ## Dependencies
@@ -57,7 +57,7 @@ The script requires the following R packages:
 * Run the script to perform the analysis and visualize the results.
 
 ## Dataset
-* **File**: 'Health-Insurance-Dataset.csv'
-* **Variables**: Age, BMI, Children, Charges, Sex, Smoker, Region
+* **File**: ['Health-Insurance-Dataset.csv'](https://sendeyo.com/en/afa8d570b4)
+* **Variables**: Age, BMI, Children, Expenses, Sex, Smoker, Region
 
-This script provides a comprehensive analysis of the Health Insurance Dataset, helping to understand the factors that influence insurance charges and the distributions of various attributes.
+This script provides a comprehensive analysis of the Health Insurance Dataset, helping to understand the factors that influence insurance expenses and the distributions of various attributes.
