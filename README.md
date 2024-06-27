@@ -60,4 +60,5 @@ The script requires the following R packages:
 * **File**: 'Health-Insurance-Dataset.csv'
 * **Variables**: Age, BMI, Children, Charges, Sex, Smoker, Region
 
+
 This script provides a comprehensive analysis of the Health Insurance Dataset, helping to understand the factors that influence insurance charges and the distributions of various attributes.
