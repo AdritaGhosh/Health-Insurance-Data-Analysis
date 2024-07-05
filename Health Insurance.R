@@ -39,7 +39,6 @@ ggplot(dataset, aes(x = expenses)) +
 ggplot(dataset, aes(x = children)) +
   geom_bar() +
   labs(title = "Distribution of Children", x = "Number of Children", y = "Count")
-Distribution of Children
 
 # For categorical variables, bar plots are used
 ggplot(dataset, aes(x = sex, fill = sex)) +
