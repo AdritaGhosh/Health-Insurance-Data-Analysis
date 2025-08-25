@@ -57,7 +57,7 @@ The script requires the following R packages:
 * Run the script to perform the analysis and visualize the results.
 
 ## Dataset
-* **File**: [Health-Insurance-Dataset.csv](https://sendeyo.com/en/afa8d570b4)
+* **File**: [Health-Insurance-Dataset.csv]((https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset/data))
 * **Variables**: Age, BMI, Children, Expenses, Sex, Smoker, Region
 * **Description**: [Analytical report](https://medium.com/@adrita21/statistical-analysis-of-health-insurance-cost-using-r-709d88214b9d)
 
